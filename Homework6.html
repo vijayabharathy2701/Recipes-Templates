@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Favorite Food</title>
+        <style>
+            body{
+                background-image: url("https://media.gettyimages.com/photos/fried-rice-picture-id639737664?s=2048x2048" );
+                background-position: center;
+                background-origin: content-box;
+                 padding: 0.5% 3%;
+                 margin: 0% 10%:
+            }
+              @media only screen and (max-width: 1000px) {
+            body {
+              background-image: url("https://mykitchentrials.files.wordpress.com/2014/02/friedrice-012.jpg");
+              float: none;
+              width: 100%;
+             }
+
+              }
+                h1{
+                   color: white; 
+                   background-color:black;
+                   width: 50%;
+                   height: 50%;
+                   border: 2px double white;
+                   box-sizing: border-box;
+                   text-align: center;
+                   padding: 25px;
+                   position: sticky;
+                   text-shadow: 2px 2px blueviolet;
+                   animation-name: example;
+                     animation-duration: 7s;
+                        animation-delay: -1s;
+                   
+                }
+                @keyframes example {
+                        0%   {background-color:blue; left:0px; top:0px;}
+                    25%  {background-color:black; left:200px; top:0px;}
+                    50%  {background-color:blueviolet; left:200px; top:200px;}
+                    75%  {background-color:grey; left:0px; top:200px;}
+                    100% {background-color:black; left:0px; top:0px;}
+}
+                article{
+                    
+                    border: 1px dotted grey;
+                    border-radius: 15px;
+                    background-color:white;
+                    opacity: 0.8;
+                    color: rebeccapurple;
+                    font-size: 1.5em;
+                    padding: 5px;
+                }
+                nav,article{
+                    display: flex;
+                    flex-flow: row wrap ;
+                    justify-content: center;
+                    margin:  10px 30px;
+                    
+                    
+                }
+                .unordered{
+                   background-image: url("https://images.pexels.com/photos/255501/pexels-photo-255501.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); 
+                   font-size: 1.25em;
+                   font-weight: bold;
+                   color: white;
+                   list-style-type: square;
+
+                }
+                .unordered:hover{
+
+                }
+                .order:hover{
+                    background-image: url("https://hebbarskitchen.com/wp-content/uploads/mainPhotos/veg-fried-rice-recipe-vegetable-fried-rice-chinese-fried-rice-1-768x1152.jpeg");
+                    background-repeat: no-repeat;
+                    
+                    background-position: center;
+                    color :yellow;
+                    font-weight: bold;
+                }
+                .ref{
+                    border: 2px groove goldenrod;
+                    background-color: white ;
+                    opacity: 0.7;
+                    width:50%;
+                    height: 50%;
+                    color: goldenrod;
+                }
+                a{
+                    text-decoration: none;
+
+                }
+                a:hover{
+                    background-color: black;
+                    color: orangered;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>       My Favorite Food </h1>
+        <article style="color: indigo; font-style: italic;">All Of Us Have Favorite Food,Here Iam Going to tell The Recipes of  My Favorite Food
+            First Of All My Favorite Food is <strong>FRIED RICE</strong>.</article>
+            <h3 style="text-align: center; text-transform: capitalize; color:white;font-weight: bold; background-color: blueviolet;width: 50%; height: 50%; border: 2px double white;">History About My Recipe: </h3>
+            <article>
+                
+                <span>
+                    While the exact origins of fried rice are lost to history, it’s believed that it was invented sometime during the Sui dynasty (A.D. 589–618), in the city of Yangzhou in eastern Jiangsu province.
+
+                </span>
+                <span>
+                    Yangchow (Yangzhou) fried rice is still the standard by which all other Chinese fried rice dishes are judged: morsels of fluffy rice tossed with roast pork, prawns, scallions, and peas. In American-Chinese restaurants, you’ll sometimes find it called "special fried rice."
+
+                </span>
+                <span>
+                    Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. It is often eaten by itself or as an accompaniment to another dish. Fried rice is a popular component of East Asian, Southeast Asian and certain South Asian cuisines. As a homemade dish, fried rice is typically made with ingredients left over from other dishes, leading to countless variations. Fried rice first developed during the Sui Dynasty in China and as such all fried rice dishes can trace their origins to Chinese fried rice.
+                </span>
+                
+                <span>Today, fried rice dishes are found throughout China, particularly in the south, where rice is the staple grain.     </span>
+            </article>
+            
+            <nav>
+            <!--   here we going to create unordered list for ingridients-->
+            <article>
+            <ul class="unordered">
+                <h4>INGRIDIENTS</h4>
+                <li><strong>Vegetables</strong></li>
+                         <ul>
+                         <li>Carrot</li>
+                         <li>Beans</li>
+                         <li>Cabbage</li>
+                         <li>Capsicum</li>
+
+                         </ul>
+                <li>Ginger and Garlic</li>  
+                <li>Soya and Tomato Sauce</li>       
+                <li>Rice</li>
+                <li>Pepper</li>
+                <li>Salt</li>
+                <li>Oil</li>
+            </ul>
+        </article>
+            <article>
+            <!-- here we going to create ordered list for the procedure-->
+            <ol class="order">
+                <h4>PROCEDURE</h4>
+                <li>Heat the Pan and Add oil &#127861</li>
+                <li>Add the Chopped Garlic and Ginger ,fry for 1 minutes &#9201 </li>
+                <li>Add the Chopped Vegetables and fry for 5 to 8 minutes &#9201</li>
+                <li>Add Salt as much needed &#128525</li>
+                <li>Add the Soya and Tomato Sauce (1 tablespoon) &#127860</li>
+                <li>Add Rice to the Pan and fry for for 2 minutes &#129321</li>
+                <li>Add Pepper as much you needed &#127857</li>
+                <li>You fried rice is ready</li>
+            </ol>
+        </article>
+        </nav>
+            
+        
+
+            
+            <h4 style="color:blueviolet;background-color:black; font-weight: bold; padding: 1px; width: 50%; height: 50%;">YOU MAY ALSO TRY IN THIS WEBSITE </h4>
+            <ol class=" ref">
+                <li><a href="https://www.indianhealthyrecipes.com/vegetable-fried-rice-indian-style/">Click here for Swasthis kitchen</a></li>
+                <li><a href="https://www.gimmesomeoven.com/fried-rice-recipe/">Click here for Gimme some oven</a></li>
+                <li><a href="https://www.allrecipes.com/recipe/79543/fried-rice-restaurant-style/">Click here for All Recipes</a></li>
+                <li><a href="https://www.vegrecipesofindia.com/veg-fried-rice-recipe/">Click here for veg recipes of India</a></li>
+                <li><a href="https://www.delish.com/cooking/recipe-ideas/a25325036/how-to-make-fried-rice/">Click here for delish</a></li>
+            </ol>
+            
+    </body>
+</html>
